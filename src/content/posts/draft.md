@@ -1,9 +1,12 @@
 ---
 title: Draft Example
 published: 2022-07-01
-tags: [Markdown, Blogging, Demo]
+tags:
+  - Markdown
+  - Blogging
+  - Demo
 category: Examples
-draft: true
+draft: false
 ---
 
 # This Article is a Draft
