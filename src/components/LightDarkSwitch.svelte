@@ -11,6 +11,8 @@ import {
 import { onMount } from "svelte";
 import type { LIGHT_DARK_MODE } from "@/types/config.ts";
 
+interface Props {}
+
 const seq: LIGHT_DARK_MODE[] = [LIGHT_MODE, DARK_MODE, AUTO_MODE];
 let mode: LIGHT_DARK_MODE = $state(AUTO_MODE);
 
@@ -56,6 +58,8 @@ function hidePanel() {
 	panel.classList.add("float-panel-closed");
 }
 </script>
+
+
 
 <!-- z-50 make the panel higher than other float panels -->
 <div class="relative z-50" role="menu" tabindex="-1" onmouseleave={hidePanel}>
