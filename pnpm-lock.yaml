@@ -35,6 +35,15 @@ importers:
       '@fontsource-variable/jetbrains-mono':
         specifier: ^5.2.8
         version: 5.2.8
+      '@fontsource-variable/orbitron':
+        specifier: ^5.2.8
+        version: 5.2.8
+      '@fontsource/cascadia-code':
+        specifier: ^5.2.3
+        version: 5.2.3
+      '@fontsource/commit-mono':
+        specifier: ^5.2.5
+        version: 5.2.5
       '@fontsource/roboto':
         specifier: ^5.2.9
         version: 5.2.9
@@ -1250,6 +1259,15 @@ packages:
 
   '@fontsource-variable/jetbrains-mono@5.2.8':
     resolution: {integrity: sha512-WBA9elru6Jdp5df2mES55wuOO0WIrn3kpXnI4+W2ek5u3ZgLS9XS4gmIlcQhiZOWEKl95meYdvK7xI+ETLCq/Q==}
+
+  '@fontsource-variable/orbitron@5.2.8':
+    resolution: {integrity: sha512-Jazvuj2cgBq663z1j/+JdwH2ztqQ8RaGhJgdHYphFbtfowiFaR74R8UgZl7x1skbXmUMWWH1jXfG7mrYFIYK0A==}
+
+  '@fontsource/cascadia-code@5.2.3':
+    resolution: {integrity: sha512-jnKfdZ+0UL25XUqYV7iq9gDlaUMWXxZNA7KnYzO4v8De6jBJmTkLHxDXs+1iZwl/8w7eKlDrTJWcyalOHdE2eg==}
+
+  '@fontsource/commit-mono@5.2.5':
+    resolution: {integrity: sha512-htX8yQWtiPt5L1Hzh4sirvfUJT2+KYiquDB/Q2sY2tWQYplpBUOD5zHnIM3k36Hnm4V+JIIqA/wmwupSQ68WjA==}
 
   '@fontsource/roboto@5.2.9':
     resolution: {integrity: sha512-ZTkyHiPk74B/aj8BZWbsxD5Yu+Lq+nR64eV4wirlrac2qXR7jYk2h6JlLYuOuoruTkGQWNw2fMuKNavw7/rg0w==}
@@ -6757,6 +6775,12 @@ snapshots:
       '@expressive-code/core': 0.41.4
 
   '@fontsource-variable/jetbrains-mono@5.2.8': {}
+
+  '@fontsource-variable/orbitron@5.2.8': {}
+
+  '@fontsource/cascadia-code@5.2.3': {}
+
+  '@fontsource/commit-mono@5.2.5': {}
 
   '@fontsource/roboto@5.2.9': {}
 
