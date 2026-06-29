@@ -3,7 +3,8 @@
         @apply text-3xl;
     }
 
-    h1, h2, h3, h4, h5, h6 {
+    /*h1, h2, h3, h4, h5, h6 {
+        
         .anchor {
             @apply transition -m-0.5 ml-[0.2ch] p-0.5 select-none opacity-0 no-underline !important;
 
@@ -17,7 +18,50 @@
                 @apply opacity-100 !important;
             }
         }
+    }*/
+
+    h1,
+h2 {
+    font-family: "Orbitron Variable", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+
+    .anchor {
+        @apply transition -m-0.5 ml-[0.2ch] p-0.5 select-none opacity-0 no-underline !important;
+
+        .anchor-icon {
+            @apply mx-[0.45ch] !important;
+        }
     }
+
+    &:hover {
+        .anchor {
+            @apply opacity-100 !important;
+        }
+    }
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Commit Mono", monospace;
+    font-weight: 600;
+
+    .anchor {
+        @apply transition -m-0.5 ml-[0.2ch] p-0.5 select-none opacity-0 no-underline !important;
+
+        .anchor-icon {
+            @apply mx-[0.45ch] !important;
+        }
+    }
+
+    &:hover {
+        .anchor {
+            @apply opacity-100 !important;
+        }
+    }
+}
 
     a:not(.no-styling) {
         @apply relative bg-none link font-medium text-[var(--primary)]
@@ -37,7 +81,7 @@
     code {
         @apply bg-[var(--inline-code-bg)] text-[var(--inline-code-color)] px-1 py-0.5 rounded-md overflow-hidden;
 
-        font-family: 'JetBrains Mono Variable', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+        font-family: 'Cascadia Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
         &:before {
             content:none;
         }

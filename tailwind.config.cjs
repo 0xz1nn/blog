@@ -5,9 +5,8 @@ module.exports = {
   darkMode: "class", // allows toggling dark mode manually
   theme: {
     extend: {
-      fontFamily: {
-        sans: ["Roboto", "sans-serif", ...defaultTheme.fontFamily.sans],
-      },
+     fontFamily: { sans: ["Commit Mono", "monospace"],
+   },
     },
   },
   plugins: [require("@tailwindcss/typography")],
