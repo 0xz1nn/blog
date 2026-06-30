@@ -31,6 +31,9 @@ yarn.lock
 *.iml
 
 # Vault CMS / Obsidian
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
+src/content/.obsidian/workspace.json
+src/content/.obsidian/workspace-mobile.json
+src/content/.obsidian/app.json
+src/content/.obsidian/plugins/*/data.json
+src/content/.obsidian/cache/
 .ref/

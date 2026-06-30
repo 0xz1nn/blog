@@ -6,7 +6,8 @@ tags:
   - Blogging
   - Demo
 category: Examples
-draft: false
+draft: true
+updated: 2026-06-30
 ---
 
 # This Article is a Draft

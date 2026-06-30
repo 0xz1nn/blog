@@ -6,7 +6,8 @@ tags:
   - astro
   - fuwari
   - testing
-draft: false
+draft: true
+updated: 2026-06-30
 ---
 
 # Hello, world
