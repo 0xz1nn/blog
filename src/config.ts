@@ -57,7 +57,6 @@ export const profileConfig: ProfileConfig = {
 	name: "Likith Gajula",
 	bio: "A personal knowledge base",
 	links: [
-
 		{
 			name: "LinkeIn",
 			icon: "fa6-brands:linkedin", // Visit https://icones.js.org/ for icon codes
