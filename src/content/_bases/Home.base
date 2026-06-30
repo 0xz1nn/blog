@@ -1,4 +1,4 @@
-defaultView: Pages
+defaultView: Posts
 filters:
   or:
     - file.ext == "md"
@@ -26,30 +26,30 @@ properties:
     displayName: Updated
 views:
   - type: cms
-    name: Pages
+    name: Posts
     filters:
       and:
-        - file.folder.startsWith("spec")
+        - file.folder.startsWith("posts")
     sort:
-      - property: file.ctime
+      - property: updated
         direction: DESC
     imageFormat: cover
     showDate: true
     customizeNewButton: true
-    newNoteLocation: spec
+    newNoteLocation: posts
     fallbackToEmbeds: if-empty
     propertyDisplay1: file.fullname
     showTextPreview: true
     propertyLabels: above
-    titleProperty: file.fullname
-    titlePropertyNested: file.fullname
-    dateProperty: file.ctime
+    titleProperty: note.title
+    dateProperty: note.updated
     descriptionProperty: note.description
     imageProperty: note.image
     showTags: true
     tagsProperty: note.tags
     showDraftStatus: true
-    draftStatusUseFilenamePrefix: true
+    draftStatusProperty: note.draft
+    draftStatusReverse: true
   - type: cms
     name: Astro Blog
     filters:
@@ -76,29 +76,29 @@ views:
     draftStatusProperty: note.draft
     draftStatusReverse: false
   - type: cms
-    name: Posts
+    name: Pages
     filters:
       and:
-        - file.folder.startsWith("posts")
+        - file.folder.startsWith("spec")
     sort:
-      - property: updated
+      - property: file.ctime
         direction: DESC
     imageFormat: cover
     showDate: true
     customizeNewButton: true
-    newNoteLocation: posts
+    newNoteLocation: spec
     fallbackToEmbeds: if-empty
     propertyDisplay1: file.fullname
     showTextPreview: true
     propertyLabels: above
-    titleProperty: note.title
-    dateProperty: note.updated
+    titleProperty: file.fullname
+    titlePropertyNested: file.fullname
+    dateProperty: file.ctime
     descriptionProperty: note.description
     imageProperty: note.image
     showTags: true
     tagsProperty: note.tags
     showDraftStatus: true
-    draftStatusProperty: note.draft
-    draftStatusReverse: true
-  - type: table
+    draftStatusUseFilenamePrefix: true
+  - type: cms
     name: View
