@@ -6,7 +6,7 @@ tags:
   - astro
   - fuwari
   - testing
-draft: true
+draft: false
 updated: 2026-06-30
 ---
 
