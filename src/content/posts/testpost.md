@@ -1,5 +1,5 @@
 ---
-title: Hello, Fuwari
+title: Test P_st
 published: 2026-06-29
 description: My first post on my new site.
 tags:
@@ -10,9 +10,7 @@ draft: false
 updated: 2026-06-30
 ---
 
-# Hello, world
-
-This is my first post using **Fuwari**.
+.
 
 ## Why this site?
 
@@ -49,4 +47,4 @@ greet()
 
 > If you can read this, the blog is working correctly.
 
-Happy hacking. 🚀
+
