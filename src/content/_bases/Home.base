@@ -1,50 +1,48 @@
-defaultView: "Posts"
+defaultView: Posts
 filters:
   or:
     - file.ext == "md"
     - file.ext == "mdx"
-
 properties:
-  "file.fullname":
+  file.fullname:
     displayName: Full File Name
-  "file.name":
+  file.name:
     displayName: Name
-  "note.date":
+  note.date:
     displayName: Date
-  "note.description":
+  note.description:
     displayName: Description
-  "note.draft":
+  note.draft:
     displayName: Draft
-  "note.image":
+  note.image:
     displayName: Image
-  "note.pubDate":
+  note.pubDate:
     displayName: PubDate
-  "note.published":
+  note.published:
     displayName: Published
-  "note.tags":
+  note.tags:
     displayName: Tags
-  "note.title":
+  note.title:
     displayName: Title
-  "note.updated":
+  note.updated:
     displayName: Updated
-
 views:
   - type: cms
-    name: "Posts"
+    name: Posts
     filters:
       and:
         - file.folder.startsWith("posts")
     sort:
       - property: updated
         direction: DESC
-    imageFormat: "cover"
+    imageFormat: cover
     showDate: true
     customizeNewButton: true
-    newNoteLocation: "posts"
-    fallbackToEmbeds: "if-empty"
+    newNoteLocation: posts
+    fallbackToEmbeds: if-empty
     propertyDisplay1: file.fullname
     showTextPreview: true
-    propertyLabels: "above"
+    propertyLabels: above
     titleProperty: note.title
     dateProperty: note.updated
     descriptionProperty: note.description
@@ -55,21 +53,21 @@ views:
     draftStatusProperty: note.draft
     draftStatusReverse: true
   - type: cms
-    name: "Astro Blog"
+    name: Astro Blog
     filters:
       and:
         - file.folder.startsWith("Astro Blog")
     sort:
       - property: updated
         direction: DESC
-    imageFormat: "cover"
+    imageFormat: cover
     showDate: true
     customizeNewButton: true
-    newNoteLocation: "Astro Blog"
-    fallbackToEmbeds: "if-empty"
+    newNoteLocation: Astro Blog
+    fallbackToEmbeds: if-empty
     propertyDisplay1: file.fullname
     showTextPreview: true
-    propertyLabels: "above"
+    propertyLabels: above
     titleProperty: note.title
     dateProperty: note.updated
     descriptionProperty: note.description
@@ -80,21 +78,21 @@ views:
     draftStatusProperty: note.draft
     draftStatusReverse: false
   - type: cms
-    name: "Pages"
+    name: Pages
     filters:
       and:
         - file.folder.startsWith("spec")
     sort:
       - property: file.ctime
         direction: DESC
-    imageFormat: "cover"
+    imageFormat: cover
     showDate: true
     customizeNewButton: true
-    newNoteLocation: "spec"
-    fallbackToEmbeds: "if-empty"
+    newNoteLocation: spec
+    fallbackToEmbeds: if-empty
     propertyDisplay1: file.fullname
     showTextPreview: true
-    propertyLabels: "above"
+    propertyLabels: above
     titleProperty: file.fullname
     titlePropertyNested: file.fullname
     dateProperty: file.ctime
@@ -105,4 +103,4 @@ views:
     showDraftStatus: true
     draftStatusUseFilenamePrefix: true
   - type: cms
-    name: "View"
+    name: View
