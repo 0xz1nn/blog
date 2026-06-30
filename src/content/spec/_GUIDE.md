@@ -1,3 +1,6 @@
+---
+updated: 2026-06-30
+---
 # Welcome to Vault CMS
 
 ## Run the setup wizard

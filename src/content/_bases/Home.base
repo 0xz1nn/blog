@@ -100,3 +100,5 @@ views:
     showDraftStatus: true
     draftStatusProperty: note.draft
     draftStatusReverse: true
+  - type: table
+    name: View
