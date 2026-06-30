@@ -8,6 +8,7 @@ tags:
   - testing
 draft: false
 updated: 2026-06-30
+category: Test
 ---
 
 .
@@ -46,5 +47,3 @@ greet()
 ```
 
 > If you can read this, the blog is working correctly.
-
-
