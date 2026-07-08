@@ -1,4 +1,4 @@
-# 🌐0xz1nn.github.io
+# ❯ 0xz1nn.github.io
 
 > Source code for my personal website and blog.
 
@@ -10,14 +10,6 @@
 
 This repository contains the source code for my personal website, built with **Astro** using the **Fuwari** theme.
 
-
-## Tech Stack
-
-* Astro
-* Fuwari
-* Tailwind CSS
-* Markdown
-* GitHub Pages
 
 
 
