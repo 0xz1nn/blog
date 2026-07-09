@@ -35,9 +35,6 @@ importers:
       '@fontsource-variable/jetbrains-mono':
         specifier: ^5.2.8
         version: 5.2.8
-      '@fontsource-variable/orbitron':
-        specifier: ^5.2.8
-        version: 5.2.8
       '@fontsource/cascadia-code':
         specifier: ^5.2.3
         version: 5.2.3
@@ -47,6 +44,9 @@ importers:
       '@fontsource/roboto':
         specifier: ^5.2.9
         version: 5.2.9
+      '@fontsource/space-grotesk':
+        specifier: ^5.2.10
+        version: 5.2.10
       '@iconify-json/fa6-regular':
         specifier: ^1.2.4
         version: 1.2.4
@@ -1260,9 +1260,6 @@ packages:
   '@fontsource-variable/jetbrains-mono@5.2.8':
     resolution: {integrity: sha512-WBA9elru6Jdp5df2mES55wuOO0WIrn3kpXnI4+W2ek5u3ZgLS9XS4gmIlcQhiZOWEKl95meYdvK7xI+ETLCq/Q==}
 
-  '@fontsource-variable/orbitron@5.2.8':
-    resolution: {integrity: sha512-Jazvuj2cgBq663z1j/+JdwH2ztqQ8RaGhJgdHYphFbtfowiFaR74R8UgZl7x1skbXmUMWWH1jXfG7mrYFIYK0A==}
-
   '@fontsource/cascadia-code@5.2.3':
     resolution: {integrity: sha512-jnKfdZ+0UL25XUqYV7iq9gDlaUMWXxZNA7KnYzO4v8De6jBJmTkLHxDXs+1iZwl/8w7eKlDrTJWcyalOHdE2eg==}
 
@@ -1271,6 +1268,9 @@ packages:
 
   '@fontsource/roboto@5.2.9':
     resolution: {integrity: sha512-ZTkyHiPk74B/aj8BZWbsxD5Yu+Lq+nR64eV4wirlrac2qXR7jYk2h6JlLYuOuoruTkGQWNw2fMuKNavw7/rg0w==}
+
+  '@fontsource/space-grotesk@5.2.10':
+    resolution: {integrity: sha512-XNXEbT74OIITPqw2H6HXwPDp85fy43uxfBwFR5PU+9sLnjuLj12KlhVM9nZVN6q6dlKjkuN8JisW/OBxwxgUew==}
 
   '@iconify-json/fa6-brands@1.2.6':
     resolution: {integrity: sha512-twL3X4KWcxAhbc1vz/mIDsVr+CAItk1/EIfxKUVQtpv6O4eydk5KNYqTZWdvJNHGInUgd6vKg21aWfVgb5DXEg==}
@@ -6776,13 +6776,13 @@ snapshots:
 
   '@fontsource-variable/jetbrains-mono@5.2.8': {}
 
-  '@fontsource-variable/orbitron@5.2.8': {}
-
   '@fontsource/cascadia-code@5.2.3': {}
 
   '@fontsource/commit-mono@5.2.5': {}
 
   '@fontsource/roboto@5.2.9': {}
+
+  '@fontsource/space-grotesk@5.2.10': {}
 
   '@iconify-json/fa6-brands@1.2.6':
     dependencies:
