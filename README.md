@@ -15,7 +15,7 @@ This repository contains the source code for my personal website, built with **A
 
 ## Credits
 
-This website is built on top of the excellent **Fuwari** theme.
+This website is built on top of the fabulous 🏞️ **Fuwari** theme.
 
 If you'd like to create your own site, check out the original project:
 
