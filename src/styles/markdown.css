@@ -1,7 +1,8 @@
 .custom-md {
-    letter-spacing: -0.005em;
+     /*letter-spacing: -0.005em;
      word-spacing: -0.02em;
-      line-height: 1.7;
+      line-height: 1.7;*/
+      
     h1 {
         @apply text-3xl;
     }

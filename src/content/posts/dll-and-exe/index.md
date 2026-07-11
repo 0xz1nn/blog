@@ -90,6 +90,7 @@ Unlike a DLL, an `.exe` contains an **entry point** (such as `main()` or `WinMai
 - The key difference is:
     - **`.exe`** >> Starts a new process and has an entry point and can run by itself.
     - **`.dll`** >> Provides reusable code that another process loads and executes so it cannot run by itself. 
+:::
 
  
 
