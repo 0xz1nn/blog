@@ -3,12 +3,13 @@
      word-spacing: -0.02em;
       line-height: 1.7;*/
       
-    h1 {
-        @apply text-3xl;
+   /*h1 {
+       @apply text-3xl; 
+
     }
 
     h1, h2, h3, h4, h5, h6 {
-        letter-spacing: -0.02em;
+        letter-spacing: -0.01em;
         
         .anchor {
             @apply transition -m-0.5 ml-[0.2ch] p-0.5 select-none opacity-0 no-underline !important;
@@ -23,9 +24,52 @@
                 @apply opacity-100 !important;
             }
         }
+    }*/
+
+    h1 {
+    @apply text-3xl;
+    font-weight: 500;
+}
+
+h2 {
+    @apply text-2xl;
+    font-weight: 500;
+}
+
+h3 {
+    @apply text-xl;
+    font-weight: 500;
+}
+
+h4,
+h5,
+h6 {
+    font-weight: 450;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+
+    .anchor {
+        @apply transition -m-0.5 ml-[0.2ch] p-0.5 select-none opacity-0 no-underline !important;
+
+        .anchor-icon {
+            @apply mx-[0.45ch] !important;
+        }
     }
 
-
+    &:hover {
+        .anchor {
+            @apply opacity-100 !important;
+        }
+    }
+}
 
 
     a:not(.no-styling) {
@@ -43,7 +87,7 @@
         }
     }
 
-    code {
+   /* code {
         @apply bg-[var(--inline-code-bg)] text-[var(--inline-code-color)] px-1 py-0.5 rounded-md overflow-hidden;
 
         font-family: 'Cascadia Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -66,7 +110,43 @@
                 display: none;
             }
         }
+    }*/
+
+    code {
+    @apply bg-[var(--inline-code-bg)] text-[var(--inline-code-color)] rounded-md overflow-hidden;
+
+    padding: 0.08em 0.35em;
+    font-size: 0.92em;
+    font-weight: 400;
+
+    font-family: 'Cascadia Code', ui-monospace, SFMono-Regular, Menlo, Monaco,
+                 Consolas, "Liberation Mono", "Courier New", monospace;
+
+    &:before {
+        content: none;
     }
+
+    &:after {
+        content: none;
+    }
+
+    counter-reset: line;
+
+    span.line {
+        &:before {
+            @apply text-white/25 mr-4 w-4 inline-block;
+            content: counter(line);
+            counter-increment: line;
+            direction: rtl;
+        }
+
+        &:last-child:empty,
+        &:last-child:has(> span:empty:only-child) {
+            display: none;
+        }
+    }
+}
+
 
    .copy-btn{
     all: initial;
