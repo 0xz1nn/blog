@@ -143,10 +143,29 @@
 .custom-md spoiler {
   @apply bg-[var(--codeblock-bg)] hover:bg-transparent px-1 py-0.5 overflow-hidden rounded-md transition-all duration-150;
 
+
   &:not(:hover) {
     color: var(--codeblock-bg);
     * {
         color: var(--codeblock-bg);
     }
   }
+}
+
+.expressive-code {
+    @apply my-4;
+
+    ::selection {
+        @apply bg-[var(--codeblock-selection)];
+    }
+}
+
+/* Only code blocks wrapped in .scroll-code become scrollable */
+.scroll-code .expressive-code pre {
+    max-height: var(--code-height) !important;
+    overflow: auto;
+}
+
+.scroll-code .expressive-code pre::-webkit-scrollbar-corner {
+    display: none;
 }
