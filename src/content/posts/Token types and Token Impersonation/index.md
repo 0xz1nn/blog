@@ -1,5 +1,5 @@
 ---
-title: Tokens and Token Impersonation
+title: Access Tokens and Token Impersonation
 updated: 2026-09-04
 published: 2026-09-04
 description: Token impersonation exploit
